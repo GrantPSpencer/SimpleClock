@@ -22,6 +22,8 @@ function updateTime() {
     if (hours > 12) {
         hours -= 12;
         period = 'PM';
+    }
+    if (hours < 10) {
         hours = '0' + hours;
     }
     if (minutes < 10) {
