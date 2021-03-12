@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: gray;
+}
+
+#outerclock-border {
+    margin-top: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    border-radius: 0%;
+
+}
+
+#clock-container {
+    /* display: flex; */
+    /* text-align: center; */
+
+    margin: auto;
+    margin-top: 11px;
+    height: 75%;
+    width: 95%;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+#clock {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   font-size: 50px;
+   color: white;
+};
+
+
+
